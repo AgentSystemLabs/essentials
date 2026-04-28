@@ -1,0 +1,19 @@
+{
+  "name": "AgentSystem.dev-essentials",
+  "owner": {
+    "name": "webdevcody"
+  },
+  "metadata": {
+    "description": "Essential plugins for agentic coding CLIs — Claude Code, Cursor, Codex.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "agentsystem-essentials",
+      "source": "./plugins/agentsystem-essentials",
+      "description": "One-shot ship workflow — groups a dirty working tree into clean commits, pushes the branch, and opens a senior-engineer-quality GitHub PR with auto-applied labels and 'might address #X' issue links.",
+      "category": "git",
+      "tags": ["git", "github", "pr", "commit", "workflow"]
+    }
+  ]
+}

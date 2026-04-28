@@ -1,0 +1,8 @@
+{
+  "name": "essentials",
+  "version": "0.1.0",
+  "description": "Essential shipping workflow — group a dirty working tree into clean commits, push the branch, and open a senior-engineer-quality GitHub PR with auto-applied labels and \"might address #X\" issue links.",
+  "author": {
+    "name": "webdevcody"
+  }
+}
