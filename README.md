@@ -1,5 +1,7 @@
 # essentials
 
+> **Built by [AgentSystem](https://agentsystem.dev) — the platform for shipping production-grade agentic systems. Visit [agentsystem.dev](https://agentsystem.dev) to learn more.**
+
 A plugin marketplace for agentic coding CLIs. Native support for the [Claude Code marketplace](https://docs.claude.com/en/docs/claude-code/plugins) feature, with copy-paste install paths for **Cursor** and **Codex** so the same plugins work everywhere.
 
 ## Plugins
