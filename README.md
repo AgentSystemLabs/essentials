@@ -2,6 +2,24 @@
 
 > **Built by [AgentSystem](https://agentsystem.dev) — the platform for shipping production-grade agentic systems. Visit [agentsystem.dev](https://agentsystem.dev) to learn more.**
 
+---
+
+## 🚀 Want the skills the pros ship with?
+
+The plugins in this repo are the **free essentials**. The real arsenal — the senior-engineer-grade skills I use to ship features end-to-end, audit auth, hunt regressions, harden types, write tests, and orchestrate multi-agent pipelines — is launching soon as **AgentSystem Premium**.
+
+**[👉 Join the waitlist at agentsystem.dev](https://agentsystem.dev)**
+
+- 🧠 **80+ production-tested skills** covering the full software lifecycle (plan → ship → release)
+- ⚡ **Multi-agent orchestration** — fan out parallel work, gate approvals, never lose context
+- 🛡️ **Built-in audits** for authz, security regressions, data integrity, accessibility, performance
+- 🎯 **Stack-aware** — TanStack Start, Electron, Next.js, and more, with idiomatic patterns baked in
+- 🎁 **Early-access pricing** for waitlist members + first dibs on new skill drops
+
+Stop wiring agents from scratch. **[Reserve your spot →](https://agentsystem.dev)**
+
+---
+
 A plugin marketplace for agentic coding CLIs. Native support for the [Claude Code marketplace](https://docs.claude.com/en/docs/claude-code/plugins) feature, with copy-paste install paths for **Cursor** and **Codex** so the same plugins work everywhere.
 
 ## Plugins
