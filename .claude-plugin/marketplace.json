@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Essential plugins for agentic coding CLIs — Claude Code, Cursor, Codex.",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "plugins": [
     {
