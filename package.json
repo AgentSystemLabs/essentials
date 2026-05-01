@@ -1,0 +1,43 @@
+{
+  "name": "agentsystem-essentials",
+  "version": "0.2.0",
+  "description": "Install AgentSystem essentials skills into any project — works with Claude Code, the Claude Agent SDK, or any tool that reads SKILL.md files.",
+  "type": "module",
+  "bin": {
+    "agentsystem-essentials": "cli/index.js"
+  },
+  "files": [
+    "cli",
+    "plugins",
+    ".claude-plugin"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "release": "npm publish --access public",
+    "release:patch": "npm version patch && npm publish --access public && git push --follow-tags",
+    "release:minor": "npm version minor && npm publish --access public && git push --follow-tags",
+    "release:major": "npm version major && npm publish --access public && git push --follow-tags"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "skills",
+    "agent-skills",
+    "agentsystem",
+    "anthropic"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgentSystemLabs/essentials.git"
+  },
+  "homepage": "https://github.com/AgentSystemLabs/essentials#readme",
+  "bugs": {
+    "url": "https://github.com/AgentSystemLabs/essentials/issues"
+  },
+  "license": "MIT"
+}

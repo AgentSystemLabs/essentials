@@ -51,6 +51,18 @@ That's it. Slash commands and subagents become available in your next prompt. To
 /plugin uninstall commit-helper@essentials
 ```
 
+### Any harness (npx)
+
+Install the skills into the current project (or globally) with the bundled CLI:
+
+```bash
+npx agentsystem-essentials init                  # → ./.claude/skills
+npx agentsystem-essentials init --global         # → ~/.claude/skills
+npx agentsystem-essentials init --harness codex  # → ./.codex/skills
+npx agentsystem-essentials list
+npx agentsystem-essentials uninstall
+```
+
 ### Cursor
 
 Each plugin ships a Cursor rule under `plugins/<name>/cursor/rules.mdc`. Copy the file you want into your project's `.cursor/rules/` directory:
