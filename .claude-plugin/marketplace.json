@@ -1,7 +1,7 @@
 {
   "name": "AgentSystem.dev-essentials",
   "owner": {
-    "name": "webdevcody"
+    "name": "AgentSystemLabs"
   },
   "metadata": {
     "description": "Essential plugins for agentic coding CLIs — Claude Code, Cursor, Codex.",

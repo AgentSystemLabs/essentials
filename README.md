@@ -39,7 +39,7 @@ A plugin marketplace for agentic coding CLIs. Native support for the [Claude Cod
 In any Claude Code session:
 
 ```
-/plugin marketplace add webdevcody/essentials
+/plugin marketplace add AgentSystemLabs/essentials
 /plugin install commit-helper@essentials
 /plugin install code-reviewer@essentials
 /plugin install ship-pr@essentials
@@ -58,7 +58,7 @@ Each plugin ships a Cursor rule under `plugins/<name>/cursor/rules.mdc`. Copy th
 ```bash
 mkdir -p .cursor/rules
 curl -o .cursor/rules/commit-helper.mdc \
-  https://raw.githubusercontent.com/webdevcody/essentials/main/plugins/commit-helper/cursor/rules.mdc
+  https://raw.githubusercontent.com/AgentSystemLabs/essentials/main/plugins/commit-helper/cursor/rules.mdc
 ```
 
 Repeat per plugin. Cursor picks up new rules automatically.
@@ -68,7 +68,7 @@ Repeat per plugin. Cursor picks up new rules automatically.
 Each plugin ships an `AGENTS.md` snippet under `plugins/<name>/codex/AGENTS.md`. Append the snippet to your project's `AGENTS.md`:
 
 ```bash
-curl https://raw.githubusercontent.com/webdevcody/essentials/main/plugins/commit-helper/codex/AGENTS.md \
+curl https://raw.githubusercontent.com/AgentSystemLabs/essentials/main/plugins/commit-helper/codex/AGENTS.md \
   >> AGENTS.md
 ```
 

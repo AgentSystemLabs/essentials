@@ -3,6 +3,6 @@
   "version": "0.2.0",
   "description": "Essential shipping workflow — group a dirty working tree into clean commits, push the branch, and open a senior-engineer-quality GitHub PR with auto-applied labels and \"might address #X\" issue links.",
   "author": {
-    "name": "webdevcody"
+    "name": "AgentSystemLabs"
   }
 }
