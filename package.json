@@ -1,6 +1,6 @@
 {
   "name": "agentsystem-essentials",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Install AgentSystem essentials skills into any project — works with Claude Code, the Claude Agent SDK, or any tool that reads SKILL.md files.",
   "type": "module",
   "bin": {
